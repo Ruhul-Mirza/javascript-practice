@@ -50,7 +50,6 @@ reset.addEventListener("click", () => {
   message.style.display = "none";
   start.style.display = "block";
   reset.style.display = "none";
-
   boxes.forEach((box)=>{
     box.innerText = "";
     box.disabled = "false";
